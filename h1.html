@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <style>
+        body{
+            background-color: #0b9dad;
+        }
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+            color: white;
+        }
+        .parag{
+            width: 40%;
+            height: 70px;
+            border: 0px solid red;
+            margin-top: 10px;
+            margin: auto;
+            text-align:center;
+            line-height: 25px;
+            font-size: 18px;
+            font-weight: 150px;
+            color: white;
+        }
+        #available{
+            padding: 18px 60px;
+            font-size: 19px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-top: 25px;
+            color: white;
+            background-color: #27A776;
+            border-radius: 12px;
+            text-transform: uppercase;
+            border: none;
+         }
+         #available:hover{
+            background-color: aquamarine;
+            color: #000;
+         }
+         .box{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(1,250px);
+            gap: 20px;
+            border: 0px solid red;
+            width: 80%;
+            margin: auto;
+            margin-top: 25px;
+         }
+         .box div{
+            border: 0px solid red;
+            margin: 10px 10px;
+            text-align: center;
+            color: white;
+            background-color: #212529
+         }
+         .box div:hover{
+            background-color:#27A776;
+         }
+         .price{
+            font-size: 20px;
+            padding-left: 150px;
+            color: white
+         }
+         .princing{
+            padding-left: 145px;
+            font-size: 35px;
+            margin: 0px;
+            color: white;
+         }
+         .photopricing{
+            width: 80%;
+            margin: auto;
+            margin-top: 15px;
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+            grid-template-rows: repeat(3,70px);
+            border: 0px solid red;
+            display: grid;
+            justify-content: space-evenly;
+         }
+         .photopricing > div{
+            border: 0px solid red;
+            margin: 5px 5px;
+         } 
+         .inside{
+            display: grid;
+            justify-content: space-around;
+            color: white;
+            background-color: #212529
+         }
+         .prince{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 50px;
+            color: white;
+
+         }
+    </style>
+</head>
+<body>
+    <h1>Services</h1>
+    <p class="parag">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem</p>
+    <button id="available">available for hire</button>
+    <di class="box">
+        <div>
+            <h2>Dancing girl</h2>
+            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint</p>
+        </div>
+        <div><h2>Dancing girl</h2>
+            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint</p></div>
+        <div><h2>Dancing girl</h2>
+            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint</p></div>
+        <div><h2>Dancing girl</h2>
+            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint</p></div>
+    </di>
+    <p class="price">Price</p>
+    <h2 class="princing">PRICES OF PHOTOGRAPHY</h2>
+    <div class="photopricing">
+        <div class="inside">
+            <div class="prince">
+            <h3> Portrait Photography </h3>
+            <h4>$160.00</h4>
+            </div>
+            
+        </div>
+        <div class="inside">
+            <div class="prince">
+            <h3> Photojournalism </h3>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>$160.00</h4>
+            </div>
+            
+        </div>
+        <div class="inside">
+            <div class="prince">
+            <h3> Fashion Photography </h3>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>$160.00</h4>
+            </div>
+            
+        </div>
+        <div class="inside">
+            <div class="prince">
+            <h3> Sports Photography </h3>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>$160.00</h4>
+            </div>
+            
+        </div>
+        <div class="inside">
+            <div class="prince">
+            <h3> Still Life Photography</h3>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4> $160.00</h4>
+            </div>
+            
+        </div>
+        <div class="inside">
+            <div class="prince">
+            <h3> Editorial Photography </h3>&nbsp;&nbsp;&nbsp;&nbsp;
+            <h4>$160.00</h4>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
